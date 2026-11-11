@@ -25,6 +25,8 @@ Interactuar con la interfaz **RESTCONF** de un router Cisco IOS XE para consulta
 | Editor | Visual Studio Code |
 | Interfaz asignada | `Loopback3` (IP `3.3.3.3/24`) |
 
+![Reservación del sandbox](capturas/00_sandbox_reservacion.png)
+
 ### Nota sobre Postman
 
 La práctica indica Postman, pero la VPN del sandbox solo pudo establecerse con OpenConnect **dentro de Ubuntu (WSL)**, por lo que el túnel no existe en Windows y Postman no alcanza el router. Para cumplir el mismo objetivo se usó `curl`, que permite enviar exactamente lo mismo que Postman:
